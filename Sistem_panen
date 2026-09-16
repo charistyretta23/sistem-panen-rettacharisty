@@ -1,0 +1,65 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMHyrL+WsmTf4wzefG1I5ZH",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/charistyretta23/sistem-panen-rettacharisty/blob/main/Sistem_panen\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "fRnUmRt22mcz",
+        "outputId": "2321b76f-0c64-417c-e813-3b26a50ece6c"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "=== Sistem Pencatatan Hasil Panen ===\n",
+            "Data hasil panen: [100, 150, 200] kg\n",
+            "Total hasil panen: 450 kg\n"
+          ]
+        }
+      ],
+      "source": [
+        "def hitung_total_hasil(panen):\n",
+        "    return sum(panen)\n",
+        "\n",
+        "\n",
+        "hasil_panen = [100, 150, 200]\n",
+        "\n",
+        "total = hitung_total_hasil(hasil_panen)\n",
+        "\n",
+        "print(\"=== Sistem Pencatatan Hasil Panen ===\")\n",
+        "print(\"Data hasil panen:\", hasil_panen, \"kg\")\n",
+        "print(\"Total hasil panen:\", total, \"kg\")"
+      ]
+    }
+  ]
+}
